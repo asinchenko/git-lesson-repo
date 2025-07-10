@@ -44,6 +44,7 @@ app.get('/', async (req, res) => {
           <h1>Here’s a random ${
 						randomOption.subBreed ? randomOption.subBreed + ' ' : ''
 					}${randomOption.breed} 🐶</h1>
+					<h3>Random dog image</h3>
           <img src="${dogImageUrl}" alt="Random Dog" style="max-width: 600px; height: auto;" />
         </body>
       </html>
